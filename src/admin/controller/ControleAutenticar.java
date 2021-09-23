@@ -1,4 +1,4 @@
-package admin.controller;
+package controller;
 
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;

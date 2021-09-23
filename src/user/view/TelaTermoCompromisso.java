@@ -24,8 +24,6 @@ import javax.swing.JToolBar;
 import javax.swing.border.EtchedBorder;
 import javax.swing.text.MaskFormatter;
 
-import controller.ControleAutenticar;
-import dao.DaoLoggin;
 import dao.DaoTelaTermoCompromisso;
 import model.ModeloTermoCompromisso;
 import net.miginfocom.swing.MigLayout;
@@ -372,7 +370,7 @@ public class TelaTermoCompromisso extends JPanel {
 				}
 				else 
 				{
-					JOptionPane.showMessageDialog(null, "Não foi possivel salvar", " Alerta ",
+					JOptionPane.showMessageDialog(null, "Nï¿½o foi possivel salvar", " Alerta ",
 												  JOptionPane.ERROR_MESSAGE);
 				}
 
