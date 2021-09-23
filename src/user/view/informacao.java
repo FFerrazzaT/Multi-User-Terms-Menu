@@ -1,21 +1,21 @@
 package view;
 
 import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import java.awt.Toolkit;
 import java.awt.Color;
-import javax.swing.JLabel;
-import net.miginfocom.swing.MigLayout;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.Toolkit;
+
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JTextPane;
 import javax.swing.WindowConstants;
-
-import java.awt.Font;
+import javax.swing.border.EmptyBorder;
 import javax.swing.border.MatteBorder;
+
+import net.miginfocom.swing.MigLayout;
 
 @SuppressWarnings("serial")
 public class informacao extends JFrame {

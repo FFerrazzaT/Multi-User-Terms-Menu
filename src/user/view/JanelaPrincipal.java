@@ -2,34 +2,34 @@ package view;
 
 import java.awt.CardLayout;
 import java.awt.Color;
+import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.EventQueue;
+import java.awt.Font;
 import java.awt.SystemColor;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.Box;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.JSplitPane;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 import javax.swing.Timer;
 import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 
 import controller.ControleTelaPrincipal;
 import dao.DaoTelaTermoCompromisso;
-import javax.swing.JLabel;
-import java.awt.Font;
 import net.miginfocom.swing.MigLayout;
-import javax.swing.JButton;
-import javax.swing.SwingConstants;
-import java.awt.Component;
-import javax.swing.Box;
-import java.awt.Dimension;
-import javax.swing.JSplitPane;
-import javax.swing.JTextField;
 
 @SuppressWarnings("serial")
 public class JanelaPrincipal extends JFrame {
