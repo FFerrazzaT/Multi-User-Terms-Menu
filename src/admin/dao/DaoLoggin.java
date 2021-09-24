@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
-import connection.ConexaoDao;
+import data.connection.ConexaoDao;
 import view.JanelaPrincipal;
 
 public class DaoLoggin

@@ -10,6 +10,7 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 
 import data.cryptografhy.Crypt;
+import data.database.CentralAcess;
 
 public class TestZone {
 
@@ -57,7 +58,9 @@ public class TestZone {
 		System.out.print("\nTexto encryptado: " + novotexto);
 		System.out.print("\nTexto desencryptado: " + novo);
 		
+		CentralAcess cs = new CentralAcess();
 		
+		cs.createSql();
 		
 		
 
